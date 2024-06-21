@@ -1,0 +1,7 @@
+SELECT [ID], [LastName], [FirstName], [MiddleName], [Phone], [Login], [Password], [RoleID]
+FROM [Demka_B].[dbo].[Users]
+WHERE [Phone] LIKE '8999%'
+
+SELECT [ID], [LastName], [FirstName], [MiddleName], [Phone], [Login], [Password], [RoleID]
+FROM [Demka_B].[dbo].[Users]
+WHERE [RoleID] = 4
